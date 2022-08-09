@@ -29,7 +29,7 @@ import {
                 <ListItemIcon>
                   <Home />
                 </ListItemIcon>
-                <ListItemText primary="Homepage" />
+                <ListItemText primary="Home" />
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
@@ -37,7 +37,7 @@ import {
                 <ListItemIcon>
                   <Article />
                 </ListItemIcon>
-                <ListItemText primary="Pages" />
+                <ListItemText primary="Liked Posts" />
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>

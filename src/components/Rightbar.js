@@ -17,9 +17,9 @@ import {
     return (
       <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
         <Box position="fixed" width={300}>
-          <Typography variant="h6" fontWeight={100}>
+          <h3>
             Friends
-          </Typography>
+          </h3>
           <AvatarGroup max={7}>
             <Avatar
               alt="Remy Sharp"
@@ -55,9 +55,9 @@ import {
               src="https://material-ui.com/static/images/avatar/8.jpg"
             />
           </AvatarGroup>
-          <Typography variant="h6" fontWeight={100} mt={2} mb={2}>
+          <h3>
             Latest Photos
-          </Typography>
+          </h3>
           <ImageList cols={3} rowHeight={100} gap={5}>
             <ImageListItem>
               <img
@@ -78,9 +78,9 @@ import {
               />
             </ImageListItem>
           </ImageList>
-          <Typography variant="h6" fontWeight={100} mt={2}>
+          <h3>
             Recent Messages
-          </Typography>
+          </h3>
           <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
         <ListItem alignItems="flex-start">
           <ListItemAvatar>

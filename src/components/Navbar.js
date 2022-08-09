@@ -48,11 +48,11 @@ const Navbar = () => {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          LAMA DEV
+          EXTROPOST
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
-          <InputBase placeholder="search..." />
+          <InputBase placeholder="Search" />
         </Search>
         <Icons>
           <Badge badgeContent={4} color="error">
@@ -90,7 +90,7 @@ const Navbar = () => {
         }}
       >
         <MenuItem>Profile</MenuItem>
-        <MenuItem>My account</MenuItem>
+        <MenuItem>My Account</MenuItem>
         <MenuItem>Logout</MenuItem>
       </Menu>
     </AppBar>
