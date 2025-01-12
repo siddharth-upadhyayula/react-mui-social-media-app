@@ -22,6 +22,7 @@ Dark Mode Feature:
 
 Directory Structure
 
+```
 siddharth-upadhyayula-react-mui-social-media-app/
 ├── README.md
 ├── package.json
@@ -45,6 +46,7 @@ siddharth-upadhyayula-react-mui-social-media-app/
         ├── Post.js
         ├── Rightbar.js
         └── Sidebar.js
+```
 
 Setup Instructions
 
